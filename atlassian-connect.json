@@ -7,7 +7,7 @@
 "name": "Raul Pelaez",
 "url": "https://jirasupport.wordpress.com"
 },
-"baseUrl": "https://url_mandatory_to_the_ftp_of_the_file_atlassian_connect/",
+"baseUrl": "https://raw.githubusercontent.com/x-vallejo/Xavier/master/",
 "authentication": {
 "type": "none"
 },
