@@ -1,0 +1,53 @@
+{
+"key": "com.example.buttonAgileBoard",
+"name": "Button Example on the Agile Board with a link to this blog",
+"version": "1.0",
+"description": "Example",
+"vendor": {
+"name": "Raul Pelaez",
+"url": "https://jirasupport.wordpress.com"
+},
+"baseUrl": "https://url_mandatory_to_the_ftp_of_the_file_atlassian_connect/",
+"authentication": {
+"type": "none"
+},
+"modules": {
+"webSections": [
+{
+"key": "board-links",
+"location": "jira.agile.board.tools",
+"weight": 10,
+"name": {
+"value": "Example Button"
+}
+}
+],
+"webItems": [
+{
+"location": "board-links",
+"weight": 200,
+"styleClasses": [
+"webitem",
+"system-present-webitem"
+],
+"url": "https://jirasupport.wordpress.com",
+"context": "product",
+"target": {
+"type": "page"
+},
+"tooltip": {
+"value": "Link"
+},
+"icon": {
+"width": 16,
+"height": 16,
+"url": "/icon.png"
+},
+"name": {
+"value": "Link"
+},
+"key": "install"
+}
+]
+}
+}
